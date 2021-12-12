@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
 })
 app.get('/index.html', (req, res) => {
     res.sendFile(__dirname + '/index.html')
+})
+
+app.get('/vegas.html', (req, res) => {
+    res.sendFile(__dirname + '/vegas.html')
 
 })
 app.get('/generic.html', (req, res) => {
@@ -20,6 +24,11 @@ app.get('/elements.html', (req, res) => {
     res.sendFile(__dirname + '/elements.html')
 
 })
+
+
+
+
+
 
 app.listen(port, () => {
 
