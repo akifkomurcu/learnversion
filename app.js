@@ -16,6 +16,10 @@ app.get('/vegas.html', (req, res) => {
     res.sendFile(__dirname + '/vegas.html')
 
 })
+app.get('/premier.html', (req, res) => {
+    res.sendFile(__dirname + '/premier.html')
+
+})
 app.get('/generic.html', (req, res) => {
     res.sendFile(__dirname + '/generic.html')
 
